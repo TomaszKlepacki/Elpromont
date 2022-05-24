@@ -55,6 +55,11 @@ Version: 1.0
 /* [ GENERAL ] */
 /*================================================== */
 
+
+html{
+  overflow-x: hidden;
+}
+
 body {
     font: 14px/22px "Raleway", Arial, Helvetica, sans-serif;
     color: #6e6e6e;
@@ -66,7 +71,7 @@ body {
     overflow-x: hidden;
 }
 .wrapper {
-    overflow: hidden;
+    
     background-color: #fff;
 }
 .section-overlay {
@@ -145,6 +150,7 @@ body.dark .latest-post .post-title a,
 body.dark .header-fixed .nav-menu ul.nav-menu-inner li a,
 body.dark .widget-tags ul>li a:hover {
   color: #fff;
+  overflow-x: hidden;
 }
 
 body.dark ul.nav.nav-tabs li a,
@@ -1390,7 +1396,8 @@ a:hover {
     -o-transition: background-color 200ms ease-in-out 0s;
     -moz-transition: background-color 200ms ease-in-out 0s;
     -webkit-transition: background-color 200ms ease-in-out 0s;
-}
+
+  }
 .header.header-fixed {
     display: block;
     margin-top: 0 !important;
@@ -3770,6 +3777,7 @@ body.dark.blog-page .banner-blog-post .meta {
     .contact .container {
         padding-left: 15px !important;
         padding-right: 15px !important;
+        overflow-x: hidden;
     }
     .header-inner,
     .videopromotion p,
